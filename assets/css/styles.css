@@ -15,10 +15,13 @@ body {
 
 nav {
   border-bottom: 2px solid grey;
-  padding: 0 6rem;
+  padding: 20px 6rem;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Libre Caslon Display", serif;
 }
 
@@ -31,7 +34,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #3d4246;
 }
 
 a:hover {
@@ -40,5 +43,75 @@ a:hover {
 
 h1 {
   text-align: center;
+  font-size: 4rem;
+}
+
+#hero > h2 {
+  text-align: center;
   font-size: 3rem;
+}
+#hero > h3 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#hero > p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#hero > div:nth-of-type(1) {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#buy-options {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#buy-options > aside {
+  width: 45%;
+}
+
+#buy-options p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+#buy-options h3,
+#buy-options h4 {
+  font-size: 1.8rem;
+}
+
+#hero > span {
+  display: block;
+  width: 40%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#hero > span > a {
+  color: #f5f5f5;
+  font-size: 1.3rem;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+  background-color: #3d4246;
+}
+
+#hero > span > a:hover {
+  color: #3d4246;
+  background-color: #f5f5f5;
+  border: 1px solid #3d4246;
 }
